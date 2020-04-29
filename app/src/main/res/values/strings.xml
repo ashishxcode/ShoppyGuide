@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Shoppy Guide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">Login</string>
+
+    <string name="backToLogin">Back to <b><font fgcolor='#1976D2'>Login</font></b></string>
+
+    <string name="you_are_not_a_member_register">You are not a member? <b><font fgcolor='#1976D2'>Register.</font></b></string>
+    <string name="ItemDialogClose">Close</string>
+    <string name="ItemDialogSubmitNew">Create</string>
+        <string name="you_are_a_member_register">You are a member? <b><font fgcolor='#1976D2'>Login</font></b></string>
+    <string name="nice_to_see_you">Nice to see you!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="auth_register">Register</string>
+    <string name="auth_phone_number">Phone Number</string>
+    <string name="auth_full_name">Full Name</string>
+    <string name="logout">Logout</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="manage_category">Manage Category</string>
+    <string name="profile">Profile</string>
+    <string name="my_list">My List</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="save_profile">Save Profile</string>
+
+    <string name="menu_todolist">Todo Lists</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_exit">Exit</string>
+
+
+    <string name="loginErrorMessage">Check the username and password. Please!</string>
+    <string name="todoListPageTitle">Hi, %1s</string>
+    <string name="todoListPageSubTitle">welcome to To Do List</string>
+
+    <string name="loginTitle">Sıgn In</string>
+    <string name="loginUserTitle">Username</string>
+    <string name="loginPassTitle">Password</string>
+    <string name="loginSignInTitle">S ı g n  I n</string>
+    <string name="loginNoAccountTitle">Do you have not an account? </string>
+    <string name="loginSignUpTitle">Sign Up</string>
+    <string name="loginUserNameError">Please fill the Username field!</string>
+    <string name="loginPasswordError">Please fill the Password field!</string>
+    <string name="signUpSuccessMessage">SignUp Success!</string>
+    <string name="signUpErrorMessage">Registration is available. Please check E-Mail or Username!</string>
+
+    <string name="todoListSearch">Search TodoList…</string>
+    <string name="todoListItemSearch">Search TodoList Item…</string>
+
+    <string name="todoListPriorityLow">Low</string>
+    <string name="todoListPriorityNormal">Normal</string>
+    <string name="todoListPriorityHigh">High</string>
+
+    <string name="signUpNameHint">Name &amp; Surname</string>
+    <string name="signUpUserNameHint">Username</string>
+    <string name="signUpPasswordHint">Password</string>
+    <string name="signUpEmailHint">E-Mail Address</string>
+    <string name="signUpBtnSubmit">SUBMIT</string>
+
+
+    <string name="shortcutAddTodoListCode">addtodolist</string>
+
+    <string name="signUpNameError">Please fill the Name &amp; Surname!</string>
+    <string name="signUpUserNameError">Please fill the Username!</string>
+    <string name="signUpPasswordError">Please fill the Password!</string>
+    <string name="signUpEmailError">Please fill the E-Mail Address!</string>
+
+
+</resources>

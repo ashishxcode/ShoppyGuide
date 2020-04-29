@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365063296161",
+    "firebase_url": "https://shoppyguide-app.firebaseio.com",
+    "project_id": "shoppyguide-app",
+    "storage_bucket": "shoppyguide-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365063296161:android:a9096edf6e4f4b44d7cce0",
+        "android_client_info": {
+          "package_name": "co.shoppyguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365063296161-ppec1is9tsl2tlsu97uvdaars9c0n5af.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.shoppyguide",
+            "certificate_hash": "e12ba1b876492cbc24f2acd97ed0952a550617c6"
+          }
+        },
+        {
+          "client_id": "365063296161-bq7gnbvkh2bmv9igd1ace7bak91o161j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH0jbJkpFY0G6gQzMyq7sgC4eg-GLF1J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365063296161-bq7gnbvkh2bmv9igd1ace7bak91o161j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

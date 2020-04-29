@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home"
+            app:actionViewClass="android.widget.TextView" />
+
+        <item
+            android:id="@+id/menu_profile"
+            android:icon="@drawable/ic_nav_profile"
+            android:title="@string/profile"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/menu_list"
+            android:icon="@drawable/ic_nav_list"
+            android:title="@string/my_list"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/menu_category"
+            android:icon="@drawable/ic_nav_item"
+            android:title="@string/manage_category"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/menu_out_of_stock"
+            android:icon="@drawable/ic_nav_out_of_stock"
+            android:title="Out of Stock"
+            app:actionViewClass="android.widget.TextView" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_nav_about"
+            android:title="@string/about"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_nav_exit"
+            android:title="@string/logout"
+            app:actionViewClass="android.widget.TextView" />
+    </group>
+</menu>

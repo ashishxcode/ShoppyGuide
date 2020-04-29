@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:elevation="20dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    app:cardCornerRadius="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_height="60dp"
+        android:layout_width="match_parent">
+
+        <View
+            android:background="@drawable/gradient_background"
+            android:id="@+id/type"
+            android:layout_height="wrap_content"
+            android:layout_width="8dp" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/textViewCategory"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/type"
+            android:layout_width="wrap_content"
+            android:text="List Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/textViewCategoryDate"
+            android:layout_below="@id/textViewCategory"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:layout_toEndOf="@id/type"
+            android:layout_width="wrap_content"
+            android:text="Date"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/grey_40" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

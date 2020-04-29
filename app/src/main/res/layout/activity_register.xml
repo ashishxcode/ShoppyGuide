@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".Activity.RegisterActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loginHeaderHeight"
+                android:background="@drawable/gradient_background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_mlarge">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp"
+                    app:contentPadding="@dimen/spacing_medium">
+
+                    <ImageView
+                        android:layout_width="@dimen/spacing_xxxxxlarge"
+                        android:layout_height="@dimen/spacing_xxxxxlarge"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/db_app_logo" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    android:text="@string/auth_register"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_middle"
+                    android:visibility="visible"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <ScrollView
+                        android:id="@+id/scroll"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:orientation="vertical"
+                            android:padding="@dimen/spacing_mlarge">
+                            <!-- Email Label -->
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp">
+
+                                <EditText
+                                    android:id="@+id/editTextEmail"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/email_hint"
+                                    android:inputType="textEmailAddress" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                            <!-- Password Label -->
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                app:passwordToggleEnabled="true"
+                                android:layout_marginBottom="8dp">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/editTextPassword"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="@string/password_hint"
+                                    android:inputType="textPassword" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/buttonRegister"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:backgroundTint="@color/colorAccent"
+                                android:padding="12dp"
+                                android:text="@string/auth_register"
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                app:cornerRadius="20dp" />
+
+                            <TextView
+                                android:id="@+id/textViewLogin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="15dp"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/you_are_not_a_member_register"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorTitle"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </ScrollView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:max="100"
+                android:progress="45"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </ScrollView>
+</layout>
